@@ -7,7 +7,7 @@ from inputimeout import inputimeout, TimeoutOccurred
 yes = {'yes','y', 'ye', ''}
 no = {'no','n'}
 
-def have_internet() -> bool:
+def hav_da_internetz() -> bool:
     con = httplib.HTTPSConnection("1.1.1.1", timeout=5)
     try:
         con.request("HEAD", "/")
@@ -25,7 +25,7 @@ if len(sys.argv) <= 1:
     exit()
 
 # check for network connection
-if have_internet() == False:
+if hav_da_internetz() == False:
     print(f"no internetz detected, try this url lol: https://command-not-found.com/{sys.argv[1]}")
     exit()
 
