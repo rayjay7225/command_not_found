@@ -17,4 +17,5 @@ command_not_found_handler() {
 }
 ```
 
-<a href="https://asciinema.org/a/eUY0dFGnxOi2xDdIag3BFbbiQ" target="_blank"><img src="https://asciinema.org/a/eUY0dFGnxOi2xDdIag3BFbbiQ.svg" /></a>
+[![asciicast](screencast.gif)](https://asciinema.org/a/eUY0dFGnxOi2xDdIag3BFbbiQ)
+
