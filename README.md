@@ -16,3 +16,5 @@ command_not_found_handler() {
     python3 /path/to/main.py $1
 }
 ```
+
+<a href="https://asciinema.org/a/eUY0dFGnxOi2xDdIag3BFbbiQ" target="_blank"><img src="https://asciinema.org/a/eUY0dFGnxOi2xDdIag3BFbbiQ.svg" /></a>
